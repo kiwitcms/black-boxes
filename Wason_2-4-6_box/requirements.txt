@@ -1,0 +1,65 @@
+Valid numbers are between 0 – 9999, inclusinve (if using indicators with 4 digits, can be bigger if you can find the appropriate display hardware)!
+
+How to play:
+
+1. Turn on the box and 1 of the 7 segment indicators is prompting to choose level: LVL 1-15 ?
+1. Level number is chosen by the keyboard and shown on  one of the other displays
+1. Press # button starts the game
+1. Repeat in a loop
+1. User enters 3 numbers
+1. Button # can be used as next button so we can rotate between all screens. Current display must be blinking or something like that to indicate that the user must select a number
+1. Button * initiates a check of all 3 numbers. Chosen numbers are checked against the selected number sequence for that specific level. Number sequences are described below.
+1. Button C clears the current display
+1. W correctly guessed number lights GREEN diode, incorrect guess lights RED diode for each row of numbers.
+1. Increment the number of correctly guessed numbers by 1
+1. Depending on how you implement WIN/LOSE/progress bar the game may cycle a few more times before declaring a winner, e.g. win 3/5 or 3 in a row. This is up to you but must be something visual. You can also decide to add some buttons or switches which will modify how a winning condition is calculated, e.g. switch 1 – 3 in a row; switch 2 – 3/5 or a combo. This isn»t shown above and is up to you.
+1. Wrong answer clears the progress
+1. clear all of the 3 displays and continue to the next iteration
+
+Number sequences in this game are the numbers N1, N2, N3, which follow the following rules:
+
+**EASY**
+
+- Each N is an even number
+- Each N is an odd number
+- For every try N3 = N2 + N1
+- For every try N1 < N2 < N3
+- For every try N1 > N2 > N3
+
+**MEDIUM**
+
+- Each number:
+  - is a power of 2: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192
+  - N1 < N2 < N3
+- Each number:
+  - divides by 3
+  - N1 < N2 < N3
+- Each number:
+  - divides by 5
+  - N1 < N2 > N3
+- Each number:
+  - divides by 7
+  - N1 > N2 > N3
+- Each number:
+  - divides by 11
+  - N1 == N2 == N3
+
+**HARD**
+
+- Each number:
+  - is a prime number. The first 1000 prime numbers can be found here https://www.di-mgt.com.au/primes1000.html , and can be hard-coded. There could be a few more numbers up to 9999. 
+  - N1 prev < N1 (each try requires a bigger number than the previous try)
+  - N1 < N2 < N3
+- Each number:
+  - is a „Square number“: Xn = n^2 – graphically you may see this as points arranged in a square, see https://en.wikipedia.org/wiki/Square_number : 1, 4, 9, 16, 25, 36, …
+  - N1 prev < N1 (each try requires bigger numbers)
+  - N1 < N2 < N3
+- Each number:
+  - is a „Triangular number:: Xn = n*(n+1)/2 - https://en.wikipedia.org/wiki/Triangular_number , can be represented as points arranged into a triangle
+  - N1 prev < N1 (each try requires bigger numbers)
+  - N1 == N2 == N3
+- Each number:
+  - is a member of the Fibonacci sequence (starting from 0), see https://en.wikipedia.org/wiki/Fibonacci_number
+  - N1 prev < N1 (each try requires bigger numbers)
+  - N1 <= N2 <= N3
+- I can't figure that one out. Be creative. If you can't then just program the game to accept any 3 random numbers.

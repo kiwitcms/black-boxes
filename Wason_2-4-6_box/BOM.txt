@@ -1,0 +1,7 @@
+# Bill of Materials
+
+1 x keyboard - https://arduino-shop.eu/arduino-platform/824-arduino-keypad-membrane-4x4.html
+3 x 7 segment indicators (4 positions or bigger)
+3 х red LED
+3 х green LED
+1 х WIN/LOSE indicator – not shown in the image above, up to you, be creative.

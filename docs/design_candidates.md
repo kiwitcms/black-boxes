@@ -38,10 +38,6 @@ On the first box an LED will light up after 666. On the other box a switch will 
 
 The goal for a user experiment is for the user to map out differences in the system and to recognize the bandwagon effect. This will prove useful in testing because no preexisting assumptions about a system will be made of a system based on the appearance of the system when not under load.
 
-## BOX 5 - Wason 2-4-6 box
-
-As presented by Alexander, with minor BOM and layout changes.
-
 ## BOX 6 - Linkage bias box (box with elements seemingly linked)
 
 The box presents a user with an erratic interface, in the top left corner there is a 2 digit display with a button under it. In the bottom right corner there is a set of two buttons and a digital potentiometer/rotary encoder. On the far right there is a single LED, and in the middle of the box there is an array of 3 LEDs. The goal of this box is to prove a linkage bias, if the user is asked to power on a single LED, which button will they choose? How do you start and stop the timer on the 2 digit display? This will go to show users that linkage although desirable in UX is not always a given when testing unknown systems.

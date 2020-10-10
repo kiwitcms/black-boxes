@@ -12,4 +12,4 @@ different points of views and also trying to examine SUT in different way
 (e.g. negative scenario, positive scenario). A hardware box implementing the
 experiment is a fun way to demonstrate the concept!
 
-!["Box concept"](https://raw.githubusercontent.com/kiwitcms/black-boxes/master/Wason_2-4-6_box/box.jpg)
+!["Box concept"](./box.jpg)

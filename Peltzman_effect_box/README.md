@@ -7,7 +7,9 @@ On the first level, the game will present a recurring pattern of using only two 
 On the second level, the game will use all three colors for the sequence and present the user with a mixed 2-3-2, 2-2-3, 3-2-2 pattern.
 
 On the third level the sequence will be entirely random using all three colors.
+
 ## Concept
+
 !["Box concept"](./box.png)
 
 ## BOM
@@ -23,7 +25,6 @@ On the third level the sequence will be entirely random using all three colors.
 | 20kΩ 1/4W resistor | 1 |
 | 330Ω 1/4W resistor | 1 |
 
-
 ## Wiring scheme
 
-![](./docs/Peltzman_box_bb.png)
+![Wiring scheme](./docs/Peltzman_box_bb.png

@@ -7,16 +7,6 @@ First level has one bit shifted, second has two and third has three.
 This box helps identify linkage between elements.
 
 
-## BOX 3 - Pseudocertainty / Peltzman effect box (PRC machine)
-
-The user is presented with a box containing 7 RGB LEDs and three buttons all corresponding to a color (a button labeled RED, GREEN, and BLUE). The box offers three levels of gameplay. The goal of the user is to guess which color will light up next. The user will be required to press a button corresponding to the color he/she thinks will light up next in the sequence. Upon pressing a button the next LED in the sequence will light up, if the user input was correct it will signal for the next input, however, if the input is wrong it will reset the game. There is not succession through levels, the goal is for the user to acquire a sense of pattern and describe it, which might lead to pseudo-certainty.
-
-On the first level, the game will present a recurring pattern of using only two colors and always map in 3+4 pattern. (RRRGGGG, GGGRRRR, …)
-
-On the second level, the game will use all three colors for the sequence and present the user with a mixed 2-3-2, 2-2-3, 3-2-2 pattern.
-
-On the third level the sequence will be entirely random using all three colors.
-
 ## BOX 4 - Bandwagon effect boxes (two similar looking boxes operating differently)
 
 The user is presented with two boxes, seemingly same in design.

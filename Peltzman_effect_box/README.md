@@ -8,6 +8,12 @@ On the second level, the game will use all three colors for the sequence and pre
 
 On the third level the sequence will be entirely random using all three colors.
 
+
+For more information see
+
+https://en.wikipedia.org/wiki/Risk_compensation#Peltzman_effect,
+https://en.wikipedia.org/wiki/Pseudocertainty_effect
+
 ## Concept
 
 !["Box concept"](./box.png)
@@ -27,4 +33,4 @@ On the third level the sequence will be entirely random using all three colors.
 
 ## Wiring scheme
 
-![Wiring scheme](./docs/Peltzman_box_bb.png
+![Wiring scheme](./docs/Peltzman_box_bb.png)

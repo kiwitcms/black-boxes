@@ -28,8 +28,11 @@ https://en.wikipedia.org/wiki/Pseudocertainty_effect
 | EC11 Rotary Encoder with push button | 1 |
 | Buzzer | 1 |
 | Tactile buttons | 3 |
-| 20kΩ 1/4W resistor | 1 |
+| 20kΩ 1/4W resistor | 4 |
 | 330Ω 1/4W resistor | 1 |
+| TP4056 charger module | 1 |
+| 18650 battery module | 1 |
+| DC-DC step-up 5V boost converter module | 1 |
 
 ## Wiring scheme
 

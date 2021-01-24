@@ -24,7 +24,10 @@ experiment is a fun way to demonstrate the concept!
 | LED (red) | 1 |
 | Buzzer | 1 |
 | 220Ω 1/4W resistor | 2 |
+| TP 4056 charger module | 1 |
+| 18650 battery module | 1 |
+| DC-DC step-up 5V boost converter module | 1 |
 
 ## Wiring scheme
 
-![Wiring scheme](./docs/Wason_sketch_bb.png)
+![Wiring scheme](./docs/Wason_box_bb.png)

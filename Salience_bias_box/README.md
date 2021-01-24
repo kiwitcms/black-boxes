@@ -27,6 +27,9 @@ For more information see https://en.wikipedia.org/wiki/Salience_(neuroscience)
 | Buzzer | 1 |
 | 220Ω 1/4W resistor | 3 |
 | 20kΩ 1/4W resistor | 4 |
+| TP 4056 charger module | 1 |
+| 18650 battery module | 1 |
+| DC-DC step-up 5V boost converter module | 1 |
 
 ## Wiring diagram
 ![Wiring diagram](./docs/Salience_box_bb.png)
